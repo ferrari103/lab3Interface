@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="classic.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Game</p>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+
+        <label for="fighters">Choose a fighter:</label>
+        <select id="fighters" name="fighters">
+            <option value="Cyrax">Cyrax</option>
+            <option value="Sub-Zero">Sub-Zero</option>
+            <option value="Scorpion">Scorpion</option>
+            <option value="Mileena">Mileena</option>
+            <option value="Liu Kang">Liu Kang</option>
+            <option value="Kenshi Takahashi">Kenshi Takahashi</option>
+        </select> <br><br>
+
+        <div>select options:</div>
+
+        <input type="checkbox" id="round" name="round" value="3">
+        <label for="round">3 rounds</label><br>
+        <input type="checkbox" id="power" name="power" value="power scale">
+        <label for="power">power scale</label><br> <br>
+
+        <div>select Arena:</div>
+        <input type="radio" id="male" name="gender" value="Night">
+        <label for="male">Night</label><br>
+        <input type="radio" id="female" name="gender" value="Day">
+        <label for="female">Day</label><br>
+        <input type="radio" id="other" name="gender" value="Rain">
+        <label for="other">Rain</label>
+        <br><br>
+
+        <input type="submit" value="start" name="start">
+        <input type="submit" value="exit" name="exit">
+    </form>
+</body>
+</html>
